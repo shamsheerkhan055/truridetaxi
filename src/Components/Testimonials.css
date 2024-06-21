@@ -1,0 +1,159 @@
+tesimonials css
+
+
+.div{
+    margin-top: 10px;
+}
+
+
+
+.testimonials-body {
+    margin-top: 200px;
+    max-width: 100%;
+    height: 847px;
+    background-color: #f9f9f9; /* Example background to visualize the section */
+    padding: 20px; /* Optional padding for better spacing */
+}
+
+.testimonials-heading {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100px; /* Adjust height as needed */
+    margin-top: 100px;
+}
+
+.testimonials-heading h3 {
+    text-align: center; 
+    margin-top: 20px; /* Adjust as needed */
+    color: #100062; /* Ensure the color is visible against the background */
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-left: 200px; */
+}
+
+.image-body  {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    /* margin-top: 30px;  /*Adjust margin as needed */
+}
+
+.image-body img {
+    width: 668px;
+    height: 236px;
+    margin-top: 100px;
+}
+
+.para-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row; /* Ensures the elements are in a row */
+    margin-bottom: 85px;
+}
+
+.para-body p {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500; /* Use numeric value for font-weight */
+    text-align: center; /* Center text */
+    margin: 0 20px; /* Adjust margin for spacing */
+    color: #100062;
+}
+
+.colon-img {
+    width: 60px;
+    height: 48px;
+}
+
+/* contact page  */
+.contact-section{
+    margin-top: 200px;
+    /* width: 1440px; */
+    height: 1240px;
+  }
+  .heading2{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .body-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 100px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 8px; */
+    max-width: 1000px;
+    gap: 46px;
+    margin: 0 auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .left-side-content, .middle1, .right-content{
+    margin-top: 100px;
+  } 
+  .left-side-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: -40px;
+  }
+  
+  .mb-3 {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #100062;
+    font-size: 25px;
+    font-style: bold;
+  }
+  
+  .form-control {
+    width: 443px;
+    height: 68px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #FF2E00;
+    border-radius: 4px;
+  }
+  .bttn{
+    width: 197px;
+    height: 48px;
+    background-color: #FF2E00;
+    margin-left: 120px;
+    /* align-items: center; */
+    /* margin-right: 914px; */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: #FF2E00;
+  
+  }
+  
+  .middle1{
+    margin-left: -15px;
+    height: 800px;
+    width: 10px;
+  }
+  .line1{
+    height: 700px;
+  }
+  /* Right content styling */
+  .right-content {
+    
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin-top: 140px; */
+    margin-left: 25px;
+  }
+  

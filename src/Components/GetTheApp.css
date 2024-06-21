@@ -1,0 +1,118 @@
+.custom-modal .modal-dialog {
+    max-width: 1152px; /* Adjust width as needed */
+    max-height: 827px; /* Adjust height as needed */
+    width: 1152px; /* Override the default width */
+    height: 827px; /* Override the default height */
+  }
+  
+  .custom-modal .modal-content {
+    height: 80%;
+  }
+  
+  #top {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #100062;
+    font: 40px Lato, sans-serif;
+  
+  }
+  
+  #span{
+    color: #ff2e00;
+    font-size: 44px;
+    font-weight: bold;
+    font: 40px Lato, sans-serif;
+  }
+  
+  #orange {
+    color: #ff2e00;
+    margin: 0px;
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  
+  #black{
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  
+  #blue {
+    color: #063558; /* Adjusted color */
+    margin: 0px;
+    margin-left: 50px;
+    text-align: left; /* Ensure text is left-aligned */
+  }
+  
+  .div-android, .div-apple {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .get-app-button {
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgba(255, 46, 0, 1);
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    color: #ff2e00;
+    padding: 10px;
+    font: 16px Lato, sans-serif;
+    margin-right: 0px;
+  }
+  
+  .get-app-button:hover {
+    background-color: #ff2e00;
+    color: white;
+    font-weight: medium;
+  }
+  
+  .container2 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 325px;
+  }
+  
+  .div-android {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (left) */
+    text-align: left;
+  }
+  
+  .div-apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start (left) */
+    text-align: left;
+  }
+  
+  #img {
+    width: 100px;
+    height: 100px;
+    margin-left: 120px;
+    transition: transform .2s;
+  }
+  
+  #img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  .btn {
+    margin-right: 104px;
+  }
+  
+  #btn2 {
+    align-items: center;
+    margin-left: 70px;
+  }
+  

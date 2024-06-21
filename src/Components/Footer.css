@@ -1,0 +1,181 @@
+.footer {
+    margin-top: 1000px;
+    margin-bottom: 0px;
+    position: relative; /* Ensures positioning context for the absolute child */
+  }
+  
+  .white {
+    background-color: white;
+    width: 100%;
+    height: 231px;
+  }
+  
+  .orange {
+    width: 80%;
+    height: 370px;
+    background-color: #FF2E00;
+    border-radius: 30px;
+    position: absolute; /* Positioned absolutely within the footer */
+    top: 45px; /* Move it up by half its height to create the overlap */
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure it is above the black section */
+    margin-left: 144px;
+    margin-right: 144px;
+    
+    margin-bottom: 0px;
+  }
+  
+  .footer-content p {
+    color: white;
+    font-family: Lato, sans-serif;
+  }
+  
+  .unlock {
+    color: white;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    margin-top: 40px;
+    margin: 0px;
+  }
+  
+  .download {
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5px;
+  }
+  
+  .tru {
+    font-size: 25px;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+  }
+  
+  .footer-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    /* margin-bottom: 40px; */
+  }
+  
+  .footer-img img {
+    width: 185px;
+    height: 53px;
+  }
+  
+  .black {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201F1F;
+    width: 100%;
+    height: 696px;
+    padding: 20px;
+    position: relative; /* For z-index layering context */
+    z-index: 0; /* Ensure it is below the orange section */
+  }
+  
+  .div-Fleft {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    color: white;
+    margin-right: 20px;
+    margin-top: 300px;
+    margin-left: 104px;
+  }
+  
+  .Flogo {
+    width: 252px;
+    height: 91px;
+    /* margin-left: 10px; */
+    margin-bottom: 20px;
+  }
+  
+  .Dtext p {
+    margin: 0px;
+    font-size: 12px;
+  }
+  
+  .Dmiddle {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 300px;
+    /* margin-left: -50px; */
+  }
+  
+  .Dright {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    margin: 0 10px;
+    margin-top: 300px;
+    /* margin-left: -50px; */
+    /* margin-right: 170px; */
+  }
+  
+  .DRright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    /* margin-left: 150px; */
+  }
+  
+  .Dmiddle ul, .Dright ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Dmiddle h3, .Dmiddle ul {
+    margin-left: 100px;
+  }
+  
+  .Dright h3, .Dright ul {
+    margin-left: 10px;
+  }
+  
+  .Dmiddle ul li, .Dright ul li {
+    padding: 5px 0;
+    font-size: 15px;
+  }
+  
+  .Dmiddle ul li:hover, .Dright ul li:hover {
+    color: #FF2E00; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  #button-addon2 {
+    width: 54px;
+    height: 51px;
+    font-size: 25px;
+    background-color: #FF2E00;
+  }
+  
+  #button-addon2 {
+    color: white;
+  }
+  
+  #input {
+    width: 235px;
+    height: 51px;
+  }
+  
+  #icon{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+  }
+  

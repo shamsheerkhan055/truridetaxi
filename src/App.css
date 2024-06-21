@@ -1,0 +1,330 @@
+/* styles.css */
+
+
+
+
+
+
+
+
+
+
+
+
+/* main page css */
+
+
+.home{
+  width: 100%;
+  
+}
+.container1 {
+  background-color: #201F1F;
+  /* background-color: #ff2e00; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full viewport width */  
+  height: 488px;
+  margin-top: 300px;
+  /* padding: 20px;  */
+  box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+}
+
+.div-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px; /* Adjust spacing between left and right sections */
+  margin-left: 158px;
+  margin-top: 52px;
+}
+
+.div1 {
+  margin-bottom: 60px; /* Adjust spacing between div1 and div4 */
+}
+
+.div4 {
+  margin-bottom: 50px; /* Adjust spacing between text blocks */
+}
+
+.div-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 57px;
+  margin-right: 144px;
+  /* Ensure the right section aligns properly */
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #434343;
+  color: white;
+  width: 620px;
+  height: 167px;
+  margin-bottom: 30px; /* Adjust spacing between div2 and div3 */
+  /* margin-top: 30px; */
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #434343;
+  color: white;
+  width: 620px;
+  height: 167px;
+  margin-bottom: 60px; /* Adjust spacing between div2 and div3 */
+}
+
+.div-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn1, .btn2 {
+  background-color: #434343;
+  border-radius: 5px;
+  border-color: rgba(255, 46, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  height: 50px;
+  color: #ff2e00;
+  padding: 10px;
+  font: 16px Lato, sans-serif;
+  margin-top: 10px; /* Adjust spacing above the button */
+  margin-left: 30px;
+}
+
+.btn1:hover, .btn2:hover {
+  background-color: #ff2e00;
+  color: white;
+  font-weight: medium;
+}
+
+.btn1.active, .btn2.active {
+  color: #ff2e00;
+}
+
+.QR1, .QR2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin-left: 30px; /* Adjust spacing between button and QR code */
+}
+
+.QR1 img {
+  width: 150%; /* Ensure the image fits within the QR1 container */
+  height: auto;
+  margin-right: 40px;
+}
+
+.QR2 img {
+  width: 150%; /* Ensure the image fits within the QR2 container */
+  height: auto;
+  margin-right: 40px;
+}
+
+
+
+
+
+
+
+/* GetTheApp */
+
+
+/* styles.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-buttons img {
+  width: 150px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  width: 90%;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-buttons img {
+  width: 150px;
+  margin: 10px;
+}
+
+.navbar-brand {
+  height: 100px;
+  width: 230px;
+  align-items: center;
+  margin-left: 144px;
+  gap: 20px;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+
+#navbarNav {
+  justify-content: space-between;
+  gap: 5px;
+  display: inline-flex;
+}
+
+.container-fluid {
+  position: fixed;
+  padding-top: 0%;
+  margin-top: -10px;
+  height: 100px;
+}
+
+.navbar-nav {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.container-fluid {
+  box-shadow: 0px 2px 15px 0px rgba(117, 115, 115, 0.25);
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-weight: 400;
+  justify-content: center;
+  padding: 30px 60px;
+}
+
+.btn {
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  border-color: rgba(255, 46, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  height: 50px;
+  color: #ff2e00;
+  padding: 10px;
+  font: 16px Lato, sans-serif;
+  margin-right: 144px;
+}
+
+.btn:hover {
+  background-color: #ff2e00;
+  color: white;
+  font-weight: medium;
+}
+
+.btn.active {
+  color: #ff2e00;
+}
+
+.nav-link {
+  color: #605D5D; /* Default color */
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ff2e00; /* Hover color */
+}
+
+.nav-link.selected {
+  color: #100062;
+}
+
