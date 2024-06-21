@@ -10,14 +10,20 @@
     ],
     
       "routes": [
-        { "src": "/", "dest": "/" },
-        { "src": "/features", "dest": "/" },
-        { "src": "/aboutus", "dest": "/" },
-        { "src": "/howitworks", "dest": "/" },
-        { "src": "/testimonials", "dest": "/" },
-        { "src": "/contactus", "dest": "/" },
-        { "src": "/gettheapp", "dest": "/" }
-        
-      ]
+    {
+      "src": "/[^.]+",
+      "dest": "/"
     }
+  ],
+      
+        "rewrites": [
+          {
+            "source": "/((?!api/.*).*)",
+            "destination": "/index.html"
+          }
+        ]
+      
+    }
+
+    
   
