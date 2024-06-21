@@ -1,6 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
-import homeimg from '../assets/home.png'
 import Androidimg from '../assets/Android.png'
 import Appleimg from '../assets/Apple.png'
 import QRpng from '../assets/QR.png'
