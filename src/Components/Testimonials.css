@@ -138,6 +138,12 @@ tesimonials css
     border-color: #FF2E00;
   
   }
+
+  @media (max-width: 600px) {
+    .item {
+      flex: 1 1 100%;
+    }
+  }
   
   .middle1{
     margin-left: -15px;

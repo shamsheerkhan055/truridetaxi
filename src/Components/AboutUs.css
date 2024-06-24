@@ -224,3 +224,9 @@ span{
     margin-top: 80px;
     margin-left: 250px;
 }
+
+@media (max-width: 600px) {
+    .item {
+      flex: 1 1 100%;
+    }
+  }

@@ -203,4 +203,10 @@
     /* margin-top: 140px; */
     margin-left: 25px;
   }
+
+  @media (max-width: 600px) {
+    .item {
+      flex: 1 1 100%;
+    }
+  }
   
