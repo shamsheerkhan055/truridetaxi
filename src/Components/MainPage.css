@@ -1,221 +1,228 @@
-.container-fluid {
-    background-color: #201F1F;
-    /* background-color: #ff2e00; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto; /* Full viewport width */  
-    height: 488px;
-    margin-top: 300px;
-    padding: 20px; 
-    box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
-  }
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px; /* Adjust as needed */
+}
+
+.rocket-container, .clock-container {
+  flex: 0 0 auto; /* Prevents flex items from growing */
+  margin: 0 20px; /* Adjust spacing between items */
+}
+
+.roc-img {
+  width: 50px;
+  height: 50px;
+}
+
+.multicolor-text {
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(
+    to left,
+    rgb(12, 41, 135),
+    rgb(12, 41, 135),
+    rgb(255, 94, 0),
+    rgb(4, 4, 91)
+    /* rgb(255, 94, 0), */
+    /* rgb(255, 94, 0), */
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.clock-img {
+  width: 40px;
+  height: 40px;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+}
+.Left{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 0px;
+}
+
+.LTop{
+  /* margin-top:-80px; */
+
+}
+
+.LMiddle{
+  margin-top: 20px;
+}
+
+.LBottom{
+  margin-top: 20px;
   
-  .div-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px; /* Adjust spacing between left and right sections */
+}
+
+
+.Limg {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+}
+
+.Limg img {
+  width: 290px;
+  height: 90px;
+  margin-top: 50px;
+}
+
+.LTop, .LMiddle, .LBottom, .Limg{
+  margin-left: -200px;
+}
+
+.Right{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.Right img{
+  width: 595px;
+  height: 684px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+
+
+
+
+
+
+.container1 {
+  background-color: #201F1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full viewport width */  
+  height: 488px;
+  margin-top: 0px;
+  box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex: 1 1 100%;
   }
-  
-  .div1 {
-    margin-bottom: 20px; /* Adjust spacing between div1 and div4 */
-  }
-  
-  .div4 {
-    margin-bottom: 20px; /* Adjust spacing between text blocks */
-  }
-  
-  .div-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 50px;
-    /* Ensure the right section aligns properly */
-  }
-  
-  .div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #434343;
-    color: white;
-    width: 620px;
-    height: 167px;
-    margin-bottom: 20px; /* Adjust spacing between div2 and div3 */
-  }
-  
-  .div3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #434343;
-    color: white;
-    width: 620px;
-    height: 167px;
-    margin-bottom: 20px; /* Adjust spacing between div2 and div3 */
-  }
-  
-  .div-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .btn1, .btn2 {
-    background-color: #434343;
-    border-radius: 5px;
-    border-color: rgba(255, 46, 0, 1);
-    border-style: solid;
-    border-width: 1px;
-    width: 200px;
-    height: 50px;
-    color: #ff2e00;
-    padding: 10px;
-    font: 16px Lato, sans-serif;
-    margin-top: 10px; /* Adjust spacing above the button */
-    margin-left: 30px;
-  }
-  
-  .btn1:hover, .btn2:hover {
-    background-color: #ff2e00;
-    color: white;
-    font-weight: medium;
-  }
-  
-  .btn1.active, .btn2.active {
-    color: #ff2e00;
-  }
-  
-  .QR1, .QR2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-left: 30px; /* Adjust spacing between button and QR code */
-  }
-  
-  .QR1 img {
-    width: 150%; /* Ensure the image fits within the QR1 container */
-    height: auto;
-    margin-right: 40px;
-  }
-  .container {
-    background-color: #201F1F;
-    /* background-color: #ff2e00; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%; /* Full viewport width */  
-    height: 488px;
-    margin-top: 300px;
-    padding: 20px; 
-    box-sizing: border-box; /* Ensure padding and borders are included in the total width and height */
-  }
-  
-  .div-left {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 20px; /* Adjust spacing between left and right sections */
-  }
-  
-  .div1 {
-    margin-bottom: 20px; /* Adjust spacing between div1 and div4 */
-  }
-  
-  .div4 {
-    margin-bottom: 20px; /* Adjust spacing between text blocks */
-  }
-  
-  .div-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 50px;
-    /* Ensure the right section aligns properly */
-  }
-  
-  .div2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #434343;
-    color: white;
-    width: 620px;
-    height: 167px;
-    margin-bottom: 20px; /* Adjust spacing between div2 and div3 */
-  }
-  
-  .div3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #434343;
-    color: white;
-    width: 620px;
-    height: 167px;
-    margin-bottom: 20px; /* Adjust spacing between div2 and div3 */
-  }
-  
-  .div-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .btn1, .btn2 {
-    background-color: #434343;
-    border-radius: 5px;
-    border-color: rgba(255, 46, 0, 1);
-    border-style: solid;
-    border-width: 1px;
-    width: 200px;
-    height: 50px;
-    color: #ff2e00;
-    padding: 10px;
-    font: 16px Lato, sans-serif;
-    margin-top: 10px; /* Adjust spacing above the button */
-    margin-left: 30px;
-  }
-  
-  .btn1:hover, .btn2:hover {
-    background-color: #ff2e00;
-    color: white;
-    font-weight: medium;
-  }
-  
-  .btn1.active, .btn2.active {
-    color: #ff2e00;
-  }
-  
-  .QR1, .QR2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-left: 30px; /* Adjust spacing between button and QR code */
-  }
-  
-  .QR1 img {
-    width: 150%; /* Ensure the image fits within the QR1 container */
-    height: auto;
-    margin-right: 40px;
-  }
-  
-  .QR2 img {
-    width: 150%; /* Ensure the image fits within the QR2 container */
-    height: auto;
-    margin-right: 40px;
-  }
-  
-  .QR2 img {
-    width: 150%; /* Ensure the image fits within the QR2 container */
-    height: auto;
-    margin-right: 40px;
-  }
-  
+}
+
+
+.div-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px; /* Adjust spacing between left and right sections */
+  margin-left: 158px;
+  margin-top: 52px;
+}
+
+.div1 {
+  margin-bottom: 60px; /* Adjust spacing between div1 and div4 */
+}
+
+.div4 {
+  margin-bottom: 50px; /* Adjust spacing between text blocks */
+}
+
+.div-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 57px;
+  margin-right: 144px;
+  /* Ensure the right section aligns properly */
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #434343;
+  color: white;
+  width: 620px;
+  height: 167px;
+  margin-bottom: 30px; /* Adjust spacing between div2 and div3 */
+  /* margin-top: 30px; */
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #434343;
+  color: white;
+  width: 620px;
+  height: 167px;
+  margin-bottom: 60px; /* Adjust spacing between div2 and div3 */
+}
+
+.div-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn1, .btn2 {
+  background-color: #434343;
+  border-radius: 5px;
+  border-color: rgba(255, 46, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  height: 50px;
+  color: #ff2e00;
+  padding: 10px;
+  font: 16px Lato, sans-serif;
+  margin-top: 10px; /* Adjust spacing above the button */
+  margin-left: 30px;
+}
+
+.btn1:hover, .btn2:hover {
+  background-color: #ff2e00;
+  color: white;
+  font-weight: medium;
+}
+
+.btn1.active, .btn2.active {
+  color: #ff2e00;
+}
+
+.QR1, .QR2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin-left: 30px; /* Adjust spacing between button and QR code */
+}
+
+.QR1 img {
+  width: 150%; /* Ensure the image fits within the QR1 container */
+  height: auto;
+  margin-right: 40px;
+}
+
+.QR2 img {
+  width: 150%; /* Ensure the image fits within the QR2 container */
+  height: auto;
+  margin-right: 40px;
+}
+
+.top{
+  margin-left: 200px;
+}
+
+
+

@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./Features.css";
 import barimg from '../assets/bar.png'
