@@ -17,7 +17,7 @@ function GetTheApp(props) {
         <ModalHeader toggle={toggle}></ModalHeader>
         <ModalBody>
         <h2 id='top'>Download The <span id='span'>TruRide</span> Application Here</h2>
-          <div className='container2'>
+          <div className='container0'>
             <div className='div-android'>
               <p id='orange'>For Android</p>
               <p id='black'>android 8.0+</p>
