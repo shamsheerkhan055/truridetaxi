@@ -8,7 +8,12 @@ import Appstoreimg from '../assets/AppStore.png';
 import Playstoreimg from '../assets/PlayStore.png';
 import handimage from '../assets/Hand.png';
 import barimg from '../assets/bar.png';
-import benfitsimg from '../assets/benifits.png'
+import benfitsimg from '../assets/benifits.png';
+import paraimage1 from '../assets/para-img1.png';
+import paraimage2 from '../assets/para-img2.png';
+import paraimage3 from '../assets/para-img3.png';
+import circleimg from '../assets/circle.png';
+import arrow from '../assets/leftarrow.png';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './MainPage.css';
 function Mainpage() {
@@ -97,14 +102,71 @@ function Mainpage() {
 
       <div className='container2'>
       <div className='top'> 
-           <h2 id='head'> Benefits of <span>TruRide</span></h2>
-           <img src={barimg} alt="bar"   style={{   width:"250px",height:'5px', marginTop:"-70px",alignItems:"center",marginRight:"30px", gap:"40px"}}  className='img-logo'/>
+           <h1> Benefits of <span>TruRide</span></h1>
+           <img src={barimg} alt="bar"   style={{   width:"250px",height:'5px', marginTop:"-70px",alignItems:"center",marginRight:"30px", gap:"40px"}}  />
+           
          
            </div>
       </div>
 
       <div className='container3'>
-        <img style={{width:'100%', height:'500px'}} src={benfitsimg} alt='benfitsimage'/>
+        <img style={{width:'100%', height:'800px',marginTop:'-50px'}} src={benfitsimg} alt='benfitsimage'/>
+      </div>
+
+
+      <div className='top'>
+           <h1>Why<span>TruRide?</span></h1>
+           <img src={barimg} alt="bar"   style={{   width:"150px",height:'5px', marginTop:"-40px",alignItems:"center",marginRight:"20px", gap:"40px"}}  />
+        </div>
+      <div className='container4'>
+        <div className='para-one'>
+        <p style={{fontSize:'28px',fontWeight:"bold",color:'#100062'}}>Empowering Drivers, Rewarding Users with AI route mapping</p>
+        <p style={{fontSize:'18px',color:'#063558',margin:'0px'}}>At TruRidetaxi, we're a vibrant community, empowering drivers with 40% stake ownership. Our AI route </p>
+        <p style={{fontSize:'18px',color:'#063558'}}>mapping optimizes rides, making them more affordable and efficient for both drivers and riders.</p>
+        </div>
+        <div className='img-one'>
+          <img style={{width:'250px',height:'250px',marginRight:'135px'}} src={paraimage1} alt='paraimae1'/>
+        </div>
+      </div>
+
+      <div className='container5'>
+        <div className='img-two'>
+          <img style={{width:'250px',height:'250px',marginLeft:'20px'}} src={paraimage2} alt='paraimae2'/>
+        </div>
+        <div className='para-two'>
+        <p style={{fontSize:'28px',fontWeight:"bold",color:'#100062'}}>Seamless Cabs & Auto Bookings with One tap
+        Accessibility</p>
+        <p style={{fontSize:'18px',color:'#063558',margin:'0px'}}>TruRide is user-friendly, allowing riders to access cab or auto bookings through a #360 of our </p>
+        <p style={{fontSize:'18px',color:'#063558'}}>dedicated Number or via the
+        WhatsApp platform with just one tap</p>
+        </div>
+      </div>
+
+      <div className='container6'>
+        <div className='para-three'>
+        <p style={{fontSize:'28px',fontWeight:"bold",color:'#100062'}}>Supportive Partnership, Ownership Driven
+        </p>
+        <p style={{fontSize:'18px',color:'#063558',margin:'0px'}}>At TruRide, we prioritize supply-friendly solutions, fostering ownership and shared success. As a </p>
+        <p style={{fontSize:'18px',color:'#063558'}}>startup, we
+        offer cutting-edge AI technology to our partners, 0% commission for drivers.</p>
+        </div>
+        <div className='img-three'>
+          <img style={{width:'400px',height:'250px',marginRight:'135px'}} src={paraimage3} alt='paraimae3'/>
+        </div>
+      </div>
+
+      <div className='top'>
+          <h1>About our <span>TruRide</span></h1>
+          <img src={barimg} alt="bar"   style={{   width:"150px",height:'5px', marginTop:"-40px",alignItems:"center",marginRight:"20px", gap:"40px"}}  />
+      </div>
+
+      <div className='container7'>
+        <div className='circle-img'>
+          <img src={circleimg} alt='circleimg'/>
+        </div>
+        <div className='content'>
+          <img src={arrow} alt='arrow'/>
+        </div>
       </div>
     </>
   )

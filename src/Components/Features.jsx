@@ -9,8 +9,8 @@ export default function Features(){
             <section>
             <div className="container">
             <div  className="header"> 
-            <h3> Key <span>Features</span></h3>
-            <div><img src={barimg} alt="bar"  className="img-logo"   style={{ width:"200px",height:'5px', alignItems:"center",marginLeft:"490px",marginTop:'-20px'}} /></div>
+            <h1> Key <span>Features</span></h1>
+            <div><img src={barimg} alt="bar"  className="img-logo"   style={{ width:"200px",height:'5px', alignItems:"center",marginLeft:"495px",marginTop:'-10px'}} /></div>
             </div>
 
             <div className="left-box-one"></div>

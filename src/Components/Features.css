@@ -5,10 +5,12 @@
 /* margin-right: 148px; */
 }
 
-.header h3{
+.header h1{
   text-align: center;
   align-items: center;
+  color: #100062;
   margin-top: 47px;
+  font-size: 40px;
 }
 
 

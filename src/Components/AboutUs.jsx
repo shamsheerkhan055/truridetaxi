@@ -30,7 +30,7 @@ export default function AboutUs() {
 <div className='one-left'>
 
  <div  className='image-tag'>
- <img src={Larrow} alt=""    className='imgs'/>  
+ <img src={Larrow} alt="Larrow"    className='imgs'/>  
  <h5  style={{ color :"#100062"}}  className='header'>   Two way cab booking through, AI Call or whatsapp & App</h5>
  </div>
 
