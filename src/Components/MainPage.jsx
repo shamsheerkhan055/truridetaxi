@@ -101,16 +101,16 @@ function Mainpage() {
       </div>
 
       <div className='container2'>
-      <div className='top'> 
-           <h1> Benefits of <span>TruRide</span></h1>
-           <img src={barimg} alt="bar"   style={{   width:"250px",height:'5px', marginTop:"-70px",alignItems:"center",marginRight:"30px", gap:"40px"}}  />
+      <div className='top1'> 
+           <h1 style={{color:'#100062'}}> Benefits of <span>TruRide</span></h1>
+           <img src={barimg} alt="bar"   style={{   width:"150px",height:'5px', marginTop:"-20px",alignItems:"center",marginLeft:"100px"}}  />
            
          
            </div>
       </div>
 
       <div className='container3'>
-        <img style={{width:'100%', height:'800px',marginTop:'-50px'}} src={benfitsimg} alt='benfitsimage'/>
+        <img style={{width:'90%', height:'450px',marginTop:'50px'}} src={benfitsimg} alt='benfitsimage'/>
       </div>
 
 
@@ -164,8 +164,24 @@ function Mainpage() {
         <div className='circle-img'>
           <img src={circleimg} alt='circleimg'/>
         </div>
-        <div className='content'>
-          <img src={arrow} alt='arrow'/>
+        <div className='circle-content'>
+          <div className='arrows'>
+            <img id='arrimg' src={arrow} alt='arrow'/><br/>
+            <img id='arrimg' src={arrow} alt='arrow'/><br/>
+            <img id='arrimg' src={arrow} alt='arrow'/><br/>
+            <img id='arrimg' src={arrow} alt='arrow'/><br/>
+            <img id='arrimg' src={arrow} alt='arrow'/><br/>
+            <img id='arrimg' src={arrow} alt='arrow'/>
+          </div>
+          <div className='content'>
+            <p>0% Commission fee on Cabs & Auto-wala. And we have drivers stake in our company</p>
+            <p>We partnered with advertisement to reward more commission to our TruRide drivers  </p>
+            <p>AI route mapping, for Drivers for easy access to users location </p>
+            <p>Two way cab booking through, Call or whatsapp & App</p>
+            <p>User Friendly interface</p>
+            <p>AI Gamified rewards</p>
+          </div>
+          
         </div>
       </div>
     </>

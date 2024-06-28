@@ -39,18 +39,21 @@
 .container2{
   display: flex;
   justify-content: space-between;
+  margin-left: 150px;
   
 }
 .Left{
   display: flex;
   flex-direction: column;
+  margin-top: 80px;
   /* justify-content: center; */
   /* align-items: center; */
-  margin-left: 55px;
+  /* margin-left: 150px; */
 }
 
 .LTop{
   /* margin-top:-80px; */
+  /* margin-left: 50px; */
 
 }
 
@@ -78,7 +81,7 @@
 }
 
 .LTop, .LMiddle, .LBottom, .Limg{
-  margin-left: -200px;
+  /* margin-left: -200px; */
 }
 
 .Right{
@@ -221,9 +224,16 @@
   margin-right: 40px;
 }
 
-.top{
-  /* margin-left: 200px; */
-  /* margin-top: 100px; */
+.top1{
+  margin-left: 450px;
+  margin-top: 100px;
+  /* margin-left: 150px; */
+}
+.top1 h1{
+  color: #100062;
+}
+.container3{
+  margin-left: 150px;
 }
 
 .container4{
@@ -256,6 +266,22 @@
 .para-three{
   margin-top: 80px;
 }
+
+.circle-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  
+  
+
+}
+#arrimg{
+  width: 80%;
+  height: 27px;
+}
+
 
 
 
